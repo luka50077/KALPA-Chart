@@ -52,8 +52,8 @@ a {
 
 .packs a {
   display: inline-block;
-  margin: 0 .5rem;
-  padding: .4rem .8rem;
+  margin: 0.3rem;
+  padding: .35rem .7rem;
   background: rgba(255,255,255,0.08);
   border-radius: 8px;
   text-decoration: none;
@@ -71,9 +71,50 @@ a {
 }
 .content section {
   background: rgba(180,180,180,0.62);
-  margin-bottom: 0.7rem;
-  padding: 1rem 1.2rem;
+  margin-bottom: 0.5rem;
+  padding: 0.7rem 1rem;
   border-radius: 8px;
+}
+
+
+.content section .track {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.content section img.thumb {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+}
+
+.content section .meta {
+  min-width: 0;
+}
+
+.content section .meta p {
+  margin: 0;
+}
+
+.content section .meta a {
+  display: inline-block;
+  margin-top: 0.2rem;
+  color: #0f0f0f;
+  word-break: break-word;
+}
+
+@media (max-width: 520px) {
+  .content section .track {
+    gap: 0.35rem;
+  }
+  .content section img.thumb {
+    width: 56px;
+    height: 56px;
+  }
 }
 
 .site-footer {

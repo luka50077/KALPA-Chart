@@ -1,0 +1,43 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../images/darkmoon.jpg");
+  background-attachment: fixed;
+  opacity: 1;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+
+.image-container {
+  height: 100%;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}

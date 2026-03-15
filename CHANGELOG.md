@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.2.3 (2026-3-15)
+- KALPA Pack 3譜面を追加
+- Arcyone Packを新設し1譜面を追加
 ## 1.2.2 (2025-12-06)
 - DarkExtension Assault Packを新設し1譜面を追加
 ## 1.2.1 (2025-12-06)

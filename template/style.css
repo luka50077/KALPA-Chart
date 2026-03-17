@@ -67,13 +67,25 @@ p.chaos {
 
 p.cosmos {
     color: #045060;
-    ;
     font-weight: bold;
 }
 
 a {
     color: #202060;
     text-decoration: none;
+}
+
+p.title {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: #C0C0C0;
+    margin-bottom: .5rem;
+}
+
+p.composer {
+    font-size: 1.2rem;
+    color: #C0C0C0;
+    margin-bottom: 0.5rem;
 }
 
 

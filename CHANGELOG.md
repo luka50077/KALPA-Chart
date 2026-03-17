@@ -1,4 +1,8 @@
 # CHANGELOG
+## 1.3.0 (2026-3-17)
+- DarkExtension Assault Pack 1譜面、2ページを追加
+- 譜面の各ページに作曲者名を表記
+- 色の一部変更
 ## 1.2.3 (2026-3-15)
 - KALPA Pack 3譜面を追加
 - Arcyone Packを新設し1譜面を追加
